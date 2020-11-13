@@ -6,8 +6,8 @@ class Mango {
             friction: 1.0,
             density:1.5
         }
-        this.body = Bodies.circle(x, y, r, options);
         this.image = loadImage("sprites/mango.png");
+        this.body = Bodies.circle(x, y, r, options);
         World.add(world, this.body);
     }
     display() {
